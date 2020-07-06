@@ -1,0 +1,345 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+figure.snip1192 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  box-shadow: none !important;
+}
+figure.snip1192 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.snip1192 img {
+  max-width: 100%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  display: inline-block;
+  z-index: 1;
+  position: relative;
+}
+figure.snip1192 blockquote {
+  margin: 0;
+  display: block;
+  border-radius: 8px;
+  position: relative;
+  background-color: #fafafa;
+  padding: 30px 50px 65px 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0 0 -50px;
+  line-height: 1.6em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+figure.snip1192 blockquote:before,
+figure.snip1192 blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+}
+figure.snip1192 blockquote:before {
+  top: 35px;
+  left: 20px;
+}
+figure.snip1192 blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 35px;
+}
+figure.snip1192 .author {
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+figure.snip1192 .author h5 {
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 800;
+}
+figure.snip1192 .author h5 span {
+  font-weight: 400;
+  text-transform: none;
+  display: block;
+}
+/* Demo purposes only */
+
+body{
+    background-color: #fff;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("images/par.jpg");
+  
+    /* Set a specific height */
+    min-height: 755px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main h2{
+      top: 30%;
+      left: 32%;
+      position : absolute;
+      color: #ffffff;
+      display: inline-block;
+      font-size: 57px;
+      line-height: 67px;
+      font-weight: 700;
+      padding-bottom: 10px 
+    }
+.main p{
+    top: 42%;
+      left: 32%;
+      position : absolute;
+      color: #ffffff;
+      display: inline-block;
+      font-size: 40px;
+      line-height: 67px;
+      font-weight: 400;
+      padding-bottom: 10px ;
+      margin-left: 60px;
+}
+#first{
+    background-color: #fafafa;
+    overflow-x: hidden;
+}
+    
+#second p{
+    color:#660066; ;
+}
+    
+#third{
+    background-image: url("images/ignacio-brosa-vJDbPuxUS_s-unsplash.jpg");
+    min-height: 350px;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+}   
+#third h1{
+    background-color: rgba(64, 25, 88, 0.67);
+    color: #fff;
+    line-height: 52px;
+    font-size: 44px;
+    padding: 10px;
+    overflow-y: hidden;
+}
+  
+#four{
+    background-color: #401958;
+}
+#four .fas{
+    width: 1em;
+    height: 1em;
+    position: relative;
+    display: block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    color: #B4CC4E;
+    border-color: #B4CC4E;
+    font-size: 50px;
+}
+
+#four span{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#four p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;}
+#five p{
+    color: #000000;
+    font-size: 15px;
+    line-height: 1.7em;
+}
+#six h4{
+    font-size: 45px;
+    color: #000000;
+    font-weight: 600;
+}
+#seven{
+    background-color: #fafafa;
+}
+.col20{
+    width: 20%;
+}
+.back{
+    background-image: url("images/joshua-earle-dt0A75WG_aE-unsplash.jpg");
+    min-height: 300px;
+}
+
+
+.back .container{
+ 
+    padding-top: 7%;
+    text-align: center;
+    color: #fff;
+
+}
+.back .container button{
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    fill: #ffffff;
+    color: #ffffff;
+    background-color: #B4CC4E;
+    border-radius: 2px 2px 2px 2px;
+    padding: 17px 039px 17px 39px;
+    text-align: center;
+}
+ button :hover{
+    background-color: #fff;
+    color: black;
+}
+footer{
+    background-color: #263246;
+    color: #868990;
+}
+.sec2 h3,h2{
+    color: #868990;
+    line-height: normal;
+    margin: 5px 0 0;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 24px;
+}
+
+footer ul li{
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    display: block;
+    
+}
+.sec2 p{
+    color: #868990;
+}
+@media screen and (max-width : 416px){
+      
+    .res{
+        margin-top: 10px;
+    }
+    .res1{
+        margin-top: 20px;
+        margin-left: 40px;
+
+    }
+    .main h2{
+        top: 25%;
+        left: 15%;
+        position : absolute;
+        color: #ffffff;
+        display: inline-block;
+        font-size: 30px;
+        line-height: 67px;
+        font-weight: 600;
+        padding-bottom: 10px ;
+      }
+      .main p{
+        top: 37%;
+          left: 15%;
+          position : absolute;
+          color: #ffffff;
+          
+          font-size: 25px;
+          
+          font-weight: 400;
+          padding-bottom: 10px ;
+          
+    }
+    .prbl1{
+        font-size: 24px;
+        margin-top: 14px;
+    }
+    .prbl2{
+         text-align: center;
+    }
+    .fas{
+        margin-left: 40%;
+    }
+      .parallax {
+        /* The image used */
+        background-image: url("images/par.jpg");
+      
+        /* Set a specific height */
+        min-height: 500px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #third h1{
+        background-color: rgba(64, 25, 88, 0.67);
+        color: #fff;
+        line-height: 32px;
+        font-size: 24px;
+        padding: 5px;
+        overflow-y: hidden;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width : 420px){
+      
+    .res{
+        margin-top: 60px;
+        margin-left: 15px;
+    }
+    .res1{
+        margin-top: 20px;
+        margin-left: 55px;
+    }
+
+}
+@media screen and (max-width : 320px)
+{
+    .main h2{
+        top: 35%;
+        left: 10%;
+        position : absolute;
+        color: #ffffff;
+        display: inline-block;
+        font-size: 25px;
+        line-height: 67px;
+        font-weight: 600;
+        padding-bottom: 10px ;
+      }
+
+}
+@media screen and (max-width: 769px){
+    .prbl2{
+        padding-left: 20px;
+    }
+    .prbl3{
+        margin-left: 23%;
+    }
+    .prbl1{
+        font-size: 24px;
+        margin-top: 14px;
+    }
+}
